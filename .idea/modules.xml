@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyReViewApp.iml" filepath="$PROJECT_DIR$/MyReViewApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewFrame09_xRecyclerView+CustomSearchView/NewFrame09_xRecyclerView+CustomSearchView.iml" filepath="$PROJECT_DIR$/NewFrame09_xRecyclerView+CustomSearchView/NewFrame09_xRecyclerView+CustomSearchView.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewFrame_ShopClassify/NewFrame_ShopClassify.iml" filepath="$PROJECT_DIR$/NewFrame_ShopClassify/NewFrame_ShopClassify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewFrame_TwoShopCart/NewFrame_TwoShopCart.iml" filepath="$PROJECT_DIR$/NewFrame_TwoShopCart/NewFrame_TwoShopCart.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit08_ShopClassify/Unit08_ShopClassify.iml" filepath="$PROJECT_DIR$/Unit08_ShopClassify/Unit08_ShopClassify.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit09_MVP+xRecyclerView+Retrofit+OkHttp+RxJava/Unit09_MVP+xRecyclerView+Retrofit+OkHttp+RxJava.iml" filepath="$PROJECT_DIR$/Unit09_MVP+xRecyclerView+Retrofit+OkHttp+RxJava/Unit09_MVP+xRecyclerView+Retrofit+OkHttp+RxJava.iml" />
     </modules>
