@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@drawable/back_arrow_black"
+            android:padding="20dp"
+            android:id="@+id/back"
+            android:textSize="40sp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:text="注册"
+            android:padding="20dp"
+            android:textSize="26sp"
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"    />
+
+        <View
+            android:background="#000"
+            android:visibility="visible"
+            android:layout_height="1dp"
+            android:layout_below="@+id/text"
+            android:layout_width="match_parent"></View>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/regTel"
+        android:hint="请输入手机号"
+        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  />
+
+    <EditText
+        android:id="@+id/regPwd"
+        android:hint="请输入密码"
+        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  />
+
+    <Button
+        android:text="立即注册"
+        android:id="@+id/regNow"
+        android:background="#1E90FF"
+        android:layout_marginTop="28dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
