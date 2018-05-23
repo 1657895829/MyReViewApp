@@ -1,5 +1,6 @@
 package com.example.login13;
 
+import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
@@ -11,6 +12,7 @@ import com.example.login13.util.SharedUtils;
 
 //页面进入页
 public class MainActivity extends AppCompatActivity {
+    @SuppressLint("HandlerLeak")
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {

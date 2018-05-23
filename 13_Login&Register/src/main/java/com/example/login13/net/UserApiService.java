@@ -8,6 +8,7 @@ import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.Query;
 
 /**
  * Created   by    Dewey
@@ -30,5 +31,5 @@ public interface UserApiService {
     //个人中心接口：
     //http://120.27.23.105/user/getUserInfo?uid=100
     @GET("user/getUserInfo")
-    Observable<PersonInfoBean> getPerson(@Field("uid") int uid);
+    Observable<PersonInfoBean> getPerson(@Query("uid") int uid);
 }

@@ -9,7 +9,7 @@ public class PersonInfoBean {
     /**
      * msg : 获取用户信息成功
      * code : 0
-     * data : {"age":null,"appkey":null,"appsecret":null,"createtime":"2018-04-24T16:40:08","email":null,"fans":10,"follow":5,"gender":0,"icon":"https://www.zhaoapi.cn/images/15180898848441518089884704.png","latitude":null,"longitude":null,"mobile":"13775854299","money":0,"nickname":"我是你爸爸","password":"123123","praiseNum":null,"token":"2169FEE6F3AC42D662EFF44250A0BD87","uid":100,"userId":null,"username":"13775854299"}
+     * data : {"age":null,"appkey":null,"appsecret":null,"createtime":"2017-12-11T16:30:17","email":null,"fans":0,"follow":0,"gender":0,"icon":"https://www.zhaoapi.cn/images/100.jpg","latitude":null,"longitude":null,"mobile":"13775854299","money":0,"nickname":"\"张涛\"","password":"123123","praiseNum":null,"token":"2169FEE6F3AC42D662EFF44250A0BD87","uid":100,"userId":null,"username":"13775854299"}
      */
 
     private String msg;
@@ -45,17 +45,17 @@ public class PersonInfoBean {
          * age : null
          * appkey : null
          * appsecret : null
-         * createtime : 2018-04-24T16:40:08
+         * createtime : 2017-12-11T16:30:17
          * email : null
-         * fans : 10
-         * follow : 5
+         * fans : 0
+         * follow : 0
          * gender : 0
-         * icon : https://www.zhaoapi.cn/images/15180898848441518089884704.png
+         * icon : https://www.zhaoapi.cn/images/100.jpg
          * latitude : null
          * longitude : null
          * mobile : 13775854299
          * money : 0
-         * nickname : 我是你爸爸
+         * nickname : "张涛"
          * password : 123123
          * praiseNum : null
          * token : 2169FEE6F3AC42D662EFF44250A0BD87
@@ -243,6 +243,32 @@ public class PersonInfoBean {
 
         public void setUsername(String username) {
             this.username = username;
+        }
+
+        @Override
+        public String toString() {
+            return "DataBean{" +
+                    "age=" + age +
+                    ", appkey=" + appkey +
+                    ", appsecret=" + appsecret +
+                    ", createtime='" + createtime + '\'' +
+                    ", email=" + email +
+                    ", fans=" + fans +
+                    ", follow=" + follow +
+                    ", gender=" + gender +
+                    ", icon='" + icon + '\'' +
+                    ", latitude=" + latitude +
+                    ", longitude=" + longitude +
+                    ", mobile='" + mobile + '\'' +
+                    ", money=" + money +
+                    ", nickname='" + nickname + '\'' +
+                    ", password='" + password + '\'' +
+                    ", praiseNum=" + praiseNum +
+                    ", token='" + token + '\'' +
+                    ", uid=" + uid +
+                    ", userId=" + userId +
+                    ", username='" + username + '\'' +
+                    '}';
         }
     }
 }

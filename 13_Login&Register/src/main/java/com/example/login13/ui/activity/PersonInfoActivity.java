@@ -54,6 +54,9 @@ public class PersonInfoActivity extends BaseActivity<UserPresenter> implements U
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ButterKnife.bind(this);
+
+        //请求数据的方法
+        mPresenter.getRersonData(100);
     }
 
     //声明布局
@@ -74,6 +77,7 @@ public class PersonInfoActivity extends BaseActivity<UserPresenter> implements U
     public void personData(PersonInfoBean personInfoBean) {
         Toast.makeText(PersonInfoActivity.this, "个人数据：" + personInfoBean.getMsg() + "            " + personInfoBean.toString(), Toast.LENGTH_SHORT).show();
 
+        System.out.println("数据："+personInfoBean.toString());
         //设置个人信息
         if (personInfoBean.getMsg().equals("获取用户信息成功")) {
             headPhoto.setImageURI(personInfoBean.getData().getIcon());
@@ -263,5 +267,6 @@ public class PersonInfoActivity extends BaseActivity<UserPresenter> implements U
     public void regData(RegBean regBean) {
 
     }
+
 }
 

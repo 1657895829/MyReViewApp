@@ -95,6 +95,7 @@ public class UserPresenter extends BasePresenter<UserContract.View> implements U
                     @Override
                     public void onNext(PersonInfoBean personInfoBean) {
                         mView.personData(personInfoBean);
+                        System.out.println("HttpComponent 个人信息返回：" + personInfoBean.toString());
                     }
 
                     @Override
