@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/three_start"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:id="@+id/image"/>
+
+    <TextView
+        android:text="军旅人生"
+        android:id="@+id/text"
+        android:textSize="21sp"
+        android:gravity="center"
+        android:textColor="#269e48"
+        android:layout_margin="1dp"
+        android:background="#d0d6c4"
+        android:layout_height="75.5dp"
+        android:layout_width="match_parent" />
+
+</LinearLayout>
