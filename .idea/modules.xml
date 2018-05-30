@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/12_DaoHang+TiaoZhuan/12_DaoHang+TiaoZhuan.iml" filepath="$PROJECT_DIR$/12_DaoHang+TiaoZhuan/12_DaoHang+TiaoZhuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Login&amp;Register/13_Login&amp;Register.iml" filepath="$PROJECT_DIR$/13_Login&amp;Register/13_Login&amp;Register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_CustomTitleView/14_CustomTitleView.iml" filepath="$PROJECT_DIR$/14_CustomTitleView/14_CustomTitleView.iml" />
       <module fileurl="file://$PROJECT_DIR$/ButtonKnife+EventBus+Fresco+XRecyclerView/ButtonKnife+EventBus+Fresco+XRecyclerView.iml" filepath="$PROJECT_DIR$/ButtonKnife+EventBus+Fresco+XRecyclerView/ButtonKnife+EventBus+Fresco+XRecyclerView.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVP+xRecyclerView+Retrofit+OkHttp+RxJava/MVP+xRecyclerView+Retrofit+OkHttp+RxJava.iml" filepath="$PROJECT_DIR$/MVP+xRecyclerView+Retrofit+OkHttp+RxJava/MVP+xRecyclerView+Retrofit+OkHttp+RxJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyReViewApp.iml" filepath="$PROJECT_DIR$/MyReViewApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewFrame09_xRecyclerView+CustomSearchView/NewFrame09_xRecyclerView+CustomSearchView.iml" filepath="$PROJECT_DIR$/NewFrame09_xRecyclerView+CustomSearchView/NewFrame09_xRecyclerView+CustomSearchView.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewFrame_ShopClassify/NewFrame_ShopClassify.iml" filepath="$PROJECT_DIR$/NewFrame_ShopClassify/NewFrame_ShopClassify.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewFrame_TwoShopCart/NewFrame_TwoShopCart.iml" filepath="$PROJECT_DIR$/NewFrame_TwoShopCart/NewFrame_TwoShopCart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pull_CustomRecyclerView/Pull_CustomRecyclerView.iml" filepath="$PROJECT_DIR$/Pull_CustomRecyclerView/Pull_CustomRecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scrollview_Recyclerview/Scrollview_Recyclerview.iml" filepath="$PROJECT_DIR$/Scrollview_Recyclerview/Scrollview_Recyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit08_ShopClassify/Unit08_ShopClassify.iml" filepath="$PROJECT_DIR$/Unit08_ShopClassify/Unit08_ShopClassify.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit09_MVP+xRecyclerView+Retrofit+OkHttp+RxJava/Unit09_MVP+xRecyclerView+Retrofit+OkHttp+RxJava.iml" filepath="$PROJECT_DIR$/Unit09_MVP+xRecyclerView+Retrofit+OkHttp+RxJava/Unit09_MVP+xRecyclerView+Retrofit+OkHttp+RxJava.iml" />
     </modules>
